@@ -78,5 +78,65 @@ export const additionalChains: IChainData[] = [
     rpc: ['https://kovan.optimism.io'],
     faucets: [],
     infoURL: 'https://community.optimism.io/docs/'
+  },
+  {
+    name: 'Chronos Mainnet',
+    chainId: 25,
+    shortName: 'CRONOS',
+    chain: 'CRONOS',
+    network: 'mainnet',
+    networkId: 25,
+    nativeCurrency: { name: 'Cronos', symbol: 'CRO', decimals: 18 },
+    rpc: ['https://evm.cronos.org'],
+    faucets: [],
+    infoURL: 'https://cronos.org/docs/'
+  },
+  {
+    name: 'Chronos Testnet',
+    chainId: 338,
+    shortName: 'CRONOS',
+    chain: 'TCRONOS',
+    network: 'testnet',
+    networkId: 338,
+    nativeCurrency: { name: 'Cronos', symbol: 'CRO', decimals: 18 },
+    rpc: ['https://evm-t3.cronos.or'],
+    faucets: ['https://cronos.org/faucet'],
+    infoURL: 'https://cronos.org/docs/'
+  },
+  {
+    name: 'Harmony Mainnet',
+    chainId: 1666600000,
+    shortName: 'HARMONY',
+    chain: 'HARMONY',
+    network: 'mainnet',
+    networkId: 1666600000,
+    nativeCurrency: { name: 'Harmony', symbol: 'ONE', decimals: 18 },
+    rpc: ['https://api.harmony.one'],
+    faucets: [],
+    infoURL: 'https://docs.harmony.one/'
+  },
+  {
+    name: 'Harmony Testnet',
+    chainId: 1666700000,
+    shortName: 'THARMONY',
+    chain: 'HARMONY_TESTNET',
+    network: 'testnet',
+    networkId: 1666900000,
+    nativeCurrency: { name: 'Harmony', symbol: 'ONE', decimals: 18 },
+    rpc: ['https://api.s0.b.hmny.io'],
+    faucets: ['https://faucet.pops.one/'],
+    infoURL: 'https://docs.harmony.one/'
+  },
+  {
+    name: 'Harmony Devnet',
+    chainId: 1666900000,
+    shortName: 'DHARMONY',
+    chain: 'HARMONY_DEVNET',
+    network: 'testnet',
+    networkId: 1666900000,
+    nativeCurrency: { name: 'Harmony', symbol: 'ONE', decimals: 18 },
+    rpc: ['https://api.s0.ps.hmny.io'],
+    faucets: ['https://explorer.ps.hmny.io/'],
+    infoURL: 'https://docs.harmony.one/'
   }
 ]

@@ -34,13 +34,13 @@ function formatNetworkForAddEthereumChain(network: IChainDataExtended): IAddEthe
 To use network logos import into your dapp:
 
 ```typescript
-import EthLogo from '@pooltogether/evm-chains-extended/dist/umd/images/ethereum-icon.png'
-import BscLogo1 from '@pooltogether/evm-chains-extended/dist/umd/images/bsc-icon-1.png'
-import BscLogo2 from '@pooltogether/evm-chains-extended/dist/umd/images/bsc-icon-2.png'
-import OptimismLogo from '@pooltogether/evm-chains-extended/dist/umd/images/optimism-icon.png'
-import PoALogo from '@pooltogether/evm-chains-extended/dist/umd/images/poa-icon.png'
-import PolygonLogo from '@pooltogether/evm-chains-extended/dist/umd/images/polygon-icon.png'
-import XDaiLogo from '@pooltogether/evm-chains-extended/dist/umd/images/xdai-logo.png'
+import EthLogo from '@simplicy/evm-chains-extended/dist/umd/images/ethereum-icon.png'
+import BscLogo1 from '@simplicy/evm-chains-extended/dist/umd/images/bsc-icon-1.png'
+import BscLogo2 from '@simplicy/evm-chains-extended/dist/umd/images/bsc-icon-2.png'
+import OptimismLogo from '@simplicy/evm-chains-extended/dist/umd/images/optimism-icon.png'
+import PoALogo from '@simplicy/evm-chains-extended/dist/umd/images/poa-icon.png'
+import PolygonLogo from '@simplicy/evm-chains-extended/dist/umd/images/polygon-icon.png'
+import XDaiLogo from '@simplicy/evm-chains-extended/dist/umd/images/xdai-logo.png'
 ```
 
 ```jsx

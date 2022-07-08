@@ -138,6 +138,10 @@ export const chainsExtraData: IChainExtraData[] = [
     chainId: 246785
   },
   {
+    blockExplorerUrls: ['https://cronoscan.com'],
+    chainId: 25
+  },
+  {
     blockExplorerUrls: [],
     chainId: 250
   },
@@ -168,6 +172,10 @@ export const chainsExtraData: IChainExtraData[] = [
   {
     blockExplorerUrls: [],
     chainId: 3125659152
+  },
+  {
+    blockExplorerUrls: ['https://testnet.cronoscan.com'],
+    chainId: 338
   },
   {
     blockExplorerUrls: [],
@@ -329,5 +337,17 @@ export const chainsExtraData: IChainExtraData[] = [
   {
     blockExplorerUrls: ['https://testnet.snowtrace.io/'],
     chainId: 43113
+  },
+  {
+    blockExplorerUrls: ['https://explorer.harmony.one/'],
+    chainId: 1666600000
+  },
+  {
+    blockExplorerUrls: ['https://explorer.pops.one/'],
+    chainId: 1666700000
+  },
+  {
+    blockExplorerUrls: ['https://explorer.ps.hmny.io/'],
+    chainId: 1666900000
   }
 ]
